@@ -1,6 +1,5 @@
 .user-component {
   justify-content: space-between;
-  margin-bottom: 35px;
 }
 
 .user-component,
@@ -52,4 +51,16 @@
 .user-component__time {
   margin-bottom: 5px;
   display: block;
+}
+
+.user-component__exclamation {
+  display: flex;
+  align-items: center;
+}
+
+.user-component__exclamation i {
+  padding-top: 7px;
+  margin-left: 7px;
+  align-items: bottom;
+  color: rgba(255, 0, 0, 0.5);
 }
